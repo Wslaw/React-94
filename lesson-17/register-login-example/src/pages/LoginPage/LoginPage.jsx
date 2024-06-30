@@ -19,7 +19,7 @@ const LoginPage = ()=> {
     }
 
     return (
-        <div>
+        <div className={styles.block}>
             <h1>Login page</h1>
             {authLoading && <p>....Login in progress</p>}
             <LoginForm onSubmit={handleLogin} />
